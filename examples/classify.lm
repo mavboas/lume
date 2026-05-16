@@ -1,0 +1,38 @@
+// classify.lm - if/elsif/else as statements and final return values
+// usage: lume run examples/classify.lm
+
+fn classify(n: int) -> str
+"classifies a number as negative, zero, or positive"
+{
+    if(n > 0){
+        "positive"
+    }
+    elsif(n == 0){
+        "zero"
+    }
+    else{
+        "negative"
+    }
+}
+
+fn main()
+{
+    print("classify(7)   = ${classify(7)}")
+    print("classify(0)   = ${classify(0)}")
+    print("classify(-3)  = ${classify(-3)}")
+
+    // if as a statement without a value return
+    score = 85
+    if(score >= 90){
+        print("grade A")
+    }
+    elsif(score >= 70){
+        print("grade B")
+    }
+    elsif(score >= 50){
+        print("grade C")
+    }
+    else{
+        print("failed")
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "iconDefinitions": {
+    "lume": {
+      "iconPath": "./file-icon.png"
+    }
+  },
+  "fileExtensions": {
+    "lm": "lume"
+  },
+  "languageIds": [
+    "lume"
+  ]
+}

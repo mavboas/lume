@@ -1,0 +1,13 @@
+// lists.lm - list literals and list[T] annotations
+// usage: lume run examples/lists.lm
+
+fn main()
+{
+    xs: list[int] = [1, 2, 3]
+    names: list[str] = ["Ada", "Bea"]
+    empty: list[str] = []
+
+    print("xs: ${xs}")
+    print("names: ${names}")
+    print("empty: ${empty}")
+}

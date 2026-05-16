@@ -1,0 +1,19 @@
+fn classify(x: str) -> str
+{
+    switch(x){
+        case("1"){
+            "one"
+        }
+        case("2"){
+            "two"
+        }
+        default(){
+            "other"
+        }
+    }
+}
+
+fn main()
+{
+    print(classify("2"))
+}

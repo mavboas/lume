@@ -1,0 +1,27 @@
+# Lume Language Repository Code Owners
+# This file defines who should review and approve changes to files in this repository.
+# For more information, see: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owners for everything in the repo
+* @mavboas
+
+# Compiler
+/compiler/ @mavboas
+/lume/ @mavboas
+
+# VS Code Extension
+/vscode-lume/ @mavboas
+/vscode/ @mavboas
+
+# Documentation and Knowledge Base
+/kb/ @mavboas
+/specs/ @mavboas
+/docs/ @mavboas
+
+# Root configuration files
+/.github/ @mavboas
+/go.mod @mavboas
+/go.sum @mavboas
+
+# CI/CD pipeline (if any)
+/.github/workflows/ @mavboas

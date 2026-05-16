@@ -1,0 +1,11 @@
+fn subtotal(price: int, qty: int) -> int
+{
+    let(base = price * qty, fee = 2){
+        base + fee
+    }
+}
+
+fn main()
+{
+    print("subtotal: ${subtotal(20, 3)}")
+}

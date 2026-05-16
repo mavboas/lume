@@ -1,0 +1,7 @@
+// hello.lm - first Lume program
+// usage: lume run examples/hello.lm
+
+fn main()
+{
+    print("hello, lume!")
+}

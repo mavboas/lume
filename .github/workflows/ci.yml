@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+    branches: [main, feature/init]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+      - run: go test ./...
+      - run: go build -o lume ./cmd/lume
+      - run: go run ./cmd/lume run examples/hello.lm
+      - run: go run ./cmd/lume kb build
+      - run: go run ./cmd/lume kb lint

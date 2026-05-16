@@ -1,0 +1,9 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Lume mark</title>
+  <desc>Stylized flame icon for the Lume language. Layered orange, amber, yellow and pale highlight.</desc>
+
+  <path d="M 128 240 Q 60 228 72 160 Q 80 104 116 56 Q 136 32 140 0 Q 150 36 174 72 Q 204 124 196 188 Q 184 240 128 240 Z" transform="translate(0, 8)" fill="#E8512C"/>
+  <path d="M 128 216 Q 84 208 88 168 Q 96 124 122 84 Q 136 60 140 32 Q 148 56 162 84 Q 180 124 170 172 Q 162 216 128 216 Z" transform="translate(0, 8)" fill="#F59222"/>
+  <path d="M 128 192 Q 102 186 104 162 Q 110 132 126 100 Q 140 76 144 92 Q 148 128 144 168 Q 140 192 128 192 Z" transform="translate(0, 8)" fill="#FFC83D"/>
+  <path d="M 130 168 Q 118 162 120 146 Q 128 122 138 104 Q 142 124 142 144 Q 140 162 130 168 Z" transform="translate(0, 8)" fill="#FFE891"/>
+</svg>

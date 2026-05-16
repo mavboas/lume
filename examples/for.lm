@@ -1,0 +1,11 @@
+fn main()
+{
+    values = [1, 2, 3]
+    for(x in values){
+        print(x)
+    }
+
+    for(i in 0..10){
+        print(i)
+    }
+}

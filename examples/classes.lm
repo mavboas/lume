@@ -1,0 +1,23 @@
+cl Account
+{
+    id: str
+    balance: int
+}
+
+fn debit(acc: Account, amount: int) -> Account
+"Returns a new Account with balance reduced by amount."
+{
+    acc.with(balance= acc.balance - amount)
+}
+
+fn main()
+{
+    acc = Account(id= "acc-1", balance= 1000)
+    print("Account: ${acc.id}")
+    print("Balance: ${acc.balance}")
+
+    acc2 = debit(acc, 300)
+    print("After debit: ${acc2.balance}")
+
+    print("Fields: ${acc.keys}")
+}

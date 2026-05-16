@@ -1,0 +1,22 @@
+// math.lm - typed parameters, returns, bindings, and operators
+// usage: lume run examples/math.lm
+
+fn add(a: int, b: int) -> int
+"adds two integers"
+{
+    a + b
+}
+
+fn double(x: int) -> int
+{
+    x * 2
+}
+
+fn main()
+{
+    x = 10
+    y = 32
+    sum = add(x, y)
+    print("sum: ${sum}")
+    print("doubled: ${double(sum)}")
+}

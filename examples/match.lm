@@ -1,0 +1,27 @@
+fn classify(n: int) -> str
+{
+    match(n){
+        case(0){
+            "zero"
+        }
+        case(1){
+            "one"
+        }
+        case(value){
+            "other: ${value}"
+        }
+    }
+}
+
+fn main()
+{
+    print(classify(2))
+    match(true){
+        case(true){
+            print("yes")
+        }
+        case(false){
+            print("no")
+        }
+    }
+}

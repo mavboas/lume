@@ -1,0 +1,20 @@
+# Go build output
+/lume
+/lume.exe
+*.test
+coverage.out
+
+# Generated local state
+.gocache/
+.gomodcache/
+.lume/
+/kb/
+
+# VS Code extension packages
+*.vsix
+
+# Editor and OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

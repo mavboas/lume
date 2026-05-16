@@ -1,0 +1,48 @@
+{
+  "name": "lume",
+  "displayName": "Lume",
+  "description": "Lume language support: syntax highlighting and snippets for .lm files.",
+  "version": "0.0.1",
+  "publisher": "lume-lang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mavboas/lume"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "icon": "./icons/file-icon.png",
+  "contributes": {
+    "languages": [
+      {
+        "id": "lume",
+        "aliases": ["Lume", "lume"],
+        "extensions": [".lm"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "lume",
+        "scopeName": "source.lume",
+        "path": "./syntaxes/lume.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "lume",
+        "path": "./snippets/lume.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "lume-file-icons",
+        "label": "Lume",
+        "path": "./icons/lume-icon-theme.json"
+      }
+    ]
+  }
+}
