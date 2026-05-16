@@ -1,7 +1,7 @@
 # Lume
 
 <div align="center">
-  <img src="../images/logo.svg" alt="Lume Language Logo" width="200" />
+  <img src="./images/logo.svg" alt="Lume Language Logo" width="200" />
 </div>
 
 Lume is an AI-first backend language. It is immutable by default, designed for concise LLM-generated code, and currently implemented as an experimental compiler that transpiles `.lm` files to Go before invoking `go build`.
