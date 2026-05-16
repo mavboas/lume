@@ -1,0 +1,11 @@
+<svg width="680" height="320" viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Lume language logo</title>
+  <desc>Stylized flame in orange, amber and yellow next to the lowercase wordmark "lume". Lume means fire and light in archaic Portuguese.</desc>
+
+  <path d="M 230 262 Q 168 252 178 192 Q 184 142 215 98 Q 232 76 236 46 Q 244 78 264 112 Q 290 160 282 218 Q 272 262 230 262 Z" fill="#E8512C"/>
+  <path d="M 230 240 Q 192 232 196 196 Q 202 158 224 124 Q 236 104 240 80 Q 246 102 258 128 Q 272 162 264 204 Q 256 240 230 240 Z" fill="#F59222"/>
+  <path d="M 230 218 Q 208 212 210 192 Q 215 168 228 142 Q 240 122 244 138 Q 248 168 244 196 Q 240 218 230 218 Z" fill="#FFC83D"/>
+  <path d="M 232 196 Q 222 192 224 178 Q 230 158 238 144 Q 240 158 240 174 Q 238 192 232 196 Z" fill="#FFE891"/>
+
+  <text x="332" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="120" font-weight="500" fill="#1A1A1A" letter-spacing="-4">lume</text>
+</svg>

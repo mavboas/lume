@@ -1,0 +1,11 @@
+// objects.lm - object literals and field access
+// usage: lume run examples/objects.lm
+
+fn main()
+{
+    user: obj = {name: "Jane", age: 30}
+    order = {id: "A-1", total: 99}
+
+    print("user name: ${user.name}")
+    print("order id: ${order.id}")
+}
